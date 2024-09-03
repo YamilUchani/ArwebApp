@@ -8,8 +8,251 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-  serializedClasses: {}
-  methodsToPreserve: []
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
+    Vuforia.Unity.Engine.dll:
+    - Vuforia.AnchorBehaviour
+    - Vuforia.AreaTargetCaptureBehaviour
+    - Vuforia.ImageTargetBehaviour
+    - Vuforia.ImageTargetPreview
+    - Vuforia.Internal.AreaTargetCaptureInfoPopup
+    - Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    - Vuforia.RuntimeMeshRenderingBehaviour
+    - Vuforia.SessionRecorderBehaviour
+    - Vuforia.SessionRecorderHolographicCanvas
+    - Vuforia.SessionRecorderInfoPopup
+    - Vuforia.SessionRecorderOverlayCanvas
+    - Vuforia.VuforiaBehaviour
+    - Vuforia.VuforiaConfiguration
+    - Vuforia.VuforiaRuntimeResourcesRegister
+    VuforiaScripts.dll:
+    - DefaultInitializationErrorHandler
+    - DefaultObserverEventHandler
+  serializedClasses:
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+    Vuforia.Unity.Engine:
+    - Vuforia.AreaTargetCaptureBehaviour/CaptureCreationErrorEvent
+    - Vuforia.AreaTargetCaptureBehaviour/CaptureStartedEvent
+    - Vuforia.AreaTargetCaptureBehaviour/CaptureStatusInfoUpdated
+    - Vuforia.AreaTargetCaptureBehaviour/CaptureStoppedEvent
+    - Vuforia.AreaTargetCaptureBehaviour/GenerationCompletedEvent
+    - Vuforia.AreaTargetCaptureBehaviour/GenerationErrorEvent
+    - Vuforia.AreaTargetCaptureBehaviour/GenerationProgressEvent
+    - Vuforia.AreaTargetCaptureBehaviour/GenerationRemainingTimeEvent
+    - Vuforia.AreaTargetCaptureBehaviour/GenerationStartedEvent
+    - Vuforia.SessionRecorderBehaviour/CleanStorageEvent
+    - Vuforia.SessionRecorderBehaviour/RecordingStartedEvent
+    - Vuforia.SessionRecorderBehaviour/RecordingStoppedEvent
+    - Vuforia.SessionRecorderBehaviour/ShareRecordingEvent
+    - Vuforia.VuforiaConfiguration/DatabaseConfiguration
+    - Vuforia.VuforiaConfiguration/DeviceTrackerConfiguration
+    - Vuforia.VuforiaConfiguration/GenericVuforiaConfiguration
+    - Vuforia.VuforiaConfiguration/PackageInfo
+    - Vuforia.VuforiaConfiguration/PlayModeConfiguration
+    - Vuforia.VuforiaConfiguration/RequiredShaders
+    - Vuforia.VuforiaConfiguration/VideoBackgroundConfiguration
+    - Vuforia.VuforiaConfiguration/VuforiaRuntimeResources
+    - Vuforia.VuforiaConfiguration/WebCamConfiguration
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureCreationError
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnCaptureStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnCaptureStopped
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureStatusInfoUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnGenerationError
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationProgressUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationRemainingTimeUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationCompleted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnGenerationCompleted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StartCapture
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StopCapture
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnPause
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnResume
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameChanged
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameSet
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: DestroyCapture
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Selectable
+    methodName: set_interactable
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerateClicked
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: CancelTargetGeneration
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.SessionRecorderBehaviour
+    methodName: ShareRecording
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureCreationError
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnCaptureStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnCaptureStopped
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureStatusInfoUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnGenerationError
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationProgressUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationRemainingTimeUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationCompleted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnGenerationCompleted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StartCapture
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StopCapture
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnPause
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnResume
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameChanged
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameSet
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: DestroyCapture
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Selectable
+    methodName: set_interactable
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerateClicked
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: CancelTargetGeneration
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -30,6 +273,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -40,11 +285,91 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16714}
+    - Class: 114
+      Script: {instanceID: 16716}
+    - Class: 114
+      Script: {instanceID: 16758}
+    - Class: 114
+      Script: {instanceID: 16880}
+    - Class: 114
+      Script: {instanceID: 17802}
+    - Class: 114
+      Script: {instanceID: 18116}
+    - Class: 114
+      Script: {instanceID: 18164}
+    - Class: 114
+      Script: {instanceID: 18404}
+    - Class: 114
+      Script: {instanceID: 18572}
+    - Class: 114
+      Script: {instanceID: 19458}
+    - Class: 114
+      Script: {instanceID: 19460}
+    - Class: 114
+      Script: {instanceID: 19462}
+    - Class: 114
+      Script: {instanceID: 19504}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 19548}
+    - Class: 114
+      Script: {instanceID: 19554}
+    - Class: 114
+      Script: {instanceID: 19556}
+    - Class: 114
+      Script: {instanceID: 19558}
+    - Class: 114
+      Script: {instanceID: 19560}
+    - Class: 114
+      Script: {instanceID: 19582}
+    - Class: 114
+      Script: {instanceID: 19584}
+    - Class: 114
+      Script: {instanceID: 19590}
+    - Class: 114
+      Script: {instanceID: 20374}
+    - Class: 114
+      Script: {instanceID: 20420}
+    - Class: 114
+      Script: {instanceID: 20726}
+    - Class: 114
+      Script: {instanceID: 21958}
+    - Class: 114
+      Script: {instanceID: 22408}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a2d14ea68e172d2299361f2b482ddfb0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -177,6 +502,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6ca9fe8d57f21ed703fe73209d03457e
+    assemblyName: VuforiaScripts
+    namespaceName: 
+    className: DefaultObserverEventHandler
   - hash:
       serializedVersion: 2
       Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
@@ -425,6 +756,84 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5575e091a175e4fe7a9a1eb19d5c6213
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AreaTargetCaptureBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b0d27716eefa5fb2b03881b5c1df82dd
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad42ca20d05e34fc38574495ad5e5e0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia.Internal
+    className: AreaTargetCaptureOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 4465b7ee30fcab40df1ed82ace8c26d6
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c8bf596f732614c4c57c4b78d1a0550f
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: ImageTargetPreview
+  - hash:
+      serializedVersion: 2
+      Hash: e78991677b563fc652f7670463fda580
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: RuntimeMeshRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9b65a87fda890e14297cf0edf61b6ca3
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: bec19f63e9b10a91a93fe8b4baf475a2
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 15c18b30a252c5b1ef723aef117e7f2a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 9094b6b9030141ea162aeff033912cd7
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 1bdfdb2c34b3990087711e727a5cff8a
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3323e16dc7aeead7bb1358756f0a420d
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: a264617c02f09cfdff004d3900288d45
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: VuforiaRuntimeResourcesRegister
+  - hash:
+      serializedVersion: 2
       Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -521,6 +930,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 46acddd223bc876b42fe9f174f7aca4f
+    assemblyName: VuforiaScripts
+    namespaceName: 
+    className: DefaultInitializationErrorHandler
+  - hash:
+      serializedVersion: 2
       Hash: 522f6865b4ec12522e602206785309f8
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -591,12 +1006,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe

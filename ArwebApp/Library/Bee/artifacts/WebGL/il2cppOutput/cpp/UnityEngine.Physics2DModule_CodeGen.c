@@ -53,7 +53,11 @@ extern void ContactFilter2D_SetLayerMask_mC3FBC2D806C1A3ACB2D060CE48F8157505E42F
 extern void ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F9292236F18 (void);
 extern void ContactFilter2D_CreateLegacyFilter_m7DF755B13D055FA510CB7F57A2CA5B45EAD161E2 (void);
 extern void ContactFilter2D_CheckConsistency_Injected_mE330C47C2583E5057F24B9E7B2D8F4B63B2B7A7C (void);
-static Il2CppMethodPointer s_methodPointers[41] = 
+extern void RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B (void);
+extern void RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2 (void);
+extern void RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613 (void);
+extern void RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD (void);
+static Il2CppMethodPointer s_methodPointers[45] = 
 {
 	PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307,
 	PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E,
@@ -96,6 +100,10 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F9292236F18,
 	ContactFilter2D_CreateLegacyFilter_m7DF755B13D055FA510CB7F57A2CA5B45EAD161E2,
 	ContactFilter2D_CheckConsistency_Injected_mE330C47C2583E5057F24B9E7B2D8F4B63B2B7A7C,
+	RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B,
+	RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2,
+	RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613,
+	RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD,
 };
 extern void PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307_AdjustorThunk (void);
 extern void PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E_AdjustorThunk (void);
@@ -109,7 +117,11 @@ extern void PhysicsScene2D_GetRayIntersection_mF3E0EC0D4F5A4B8C063E735979C851ED5
 extern void ContactFilter2D_CheckConsistency_mD918F11F977EA35E87CF491F7AE8794F5D01DF72_AdjustorThunk (void);
 extern void ContactFilter2D_SetLayerMask_mC3FBC2D806C1A3ACB2D060CE48F8157505E42F9B_AdjustorThunk (void);
 extern void ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F9292236F18_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[12] = 
+extern void RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B_AdjustorThunk (void);
+extern void RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2_AdjustorThunk (void);
+extern void RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613_AdjustorThunk (void);
+extern void RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] = 
 {
 	{ 0x06000001, PhysicsScene2D_ToString_mACA22EF575F7544176360B16D431F2BB1DEBB307_AdjustorThunk },
 	{ 0x06000002, PhysicsScene2D_GetHashCode_mD45B3437D088C66A35AE20066AD632D1D0858B1E_AdjustorThunk },
@@ -123,58 +135,66 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[12] =
 	{ 0x06000025, ContactFilter2D_CheckConsistency_mD918F11F977EA35E87CF491F7AE8794F5D01DF72_AdjustorThunk },
 	{ 0x06000026, ContactFilter2D_SetLayerMask_mC3FBC2D806C1A3ACB2D060CE48F8157505E42F9B_AdjustorThunk },
 	{ 0x06000027, ContactFilter2D_SetDepth_mE614DDDDAEA489D150E61D2DF8104F9292236F18_AdjustorThunk },
+	{ 0x0600002A, RaycastHit2D_get_point_mB35E988E9E04328EFE926228A18334326721A36B_AdjustorThunk },
+	{ 0x0600002B, RaycastHit2D_get_normal_m75F1EBDE347BACEB5A6A6AA72543C740806AB5F2_AdjustorThunk },
+	{ 0x0600002C, RaycastHit2D_get_distance_mD0FE1482E2768CF587AFB65488459697EAB64613_AdjustorThunk },
+	{ 0x0600002D, RaycastHit2D_get_collider_mB56DFCD16B708852EEBDBB490BC8665DBF7487FD_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[41] = 
+static const int32_t s_InvokerIndices[45] = 
 {
-	1312,
-	1301,
-	833,
-	836,
-	199,
-	198,
-	1530,
-	110,
-	1430,
-	110,
-	1430,
-	179,
-	1431,
-	1445,
-	1420,
-	1420,
-	1421,
-	2520,
+	4241,
+	4214,
 	2505,
-	2135,
-	1879,
-	1678,
-	1531,
-	1443,
-	1634,
-	1509,
-	1509,
-	2390,
-	2123,
-	1871,
-	1528,
-	2077,
-	1814,
-	1632,
-	2539,
-	1514,
-	1345,
-	1109,
-	677,
-	1772,
-	2479,
+	2509,
+	587,
+	586,
+	4681,
+	285,
+	4491,
+	285,
+	4491,
+	561,
+	4492,
+	4517,
+	4481,
+	4481,
+	4482,
+	6338,
+	6314,
+	5707,
+	5251,
+	4939,
+	4682,
+	4508,
+	4889,
+	4653,
+	4653,
+	6096,
+	5678,
+	5239,
+	4679,
+	5609,
+	5168,
+	4887,
+	6365,
+	4658,
+	4330,
+	3482,
+	1940,
+	5107,
+	6233,
+	4320,
+	4320,
+	4278,
+	4241,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_Physics2DModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_Physics2DModule_CodeGenModule = 
 {
 	"UnityEngine.Physics2DModule.dll",
-	41,
+	45,
 	s_methodPointers,
-	12,
+	16,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,

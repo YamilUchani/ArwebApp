@@ -24,7 +24,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed/UnityEngine\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/netcorerun/netcorerun\" \"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies/VuforiaScripts.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed/UnityEngine\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WebGLSupport/Managed\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/ScriptAssemblies\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator\" -s=\"/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/netcorerun/netcorerun",
         "/home/yamil-uchani/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -35,7 +35,11 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/VuforiaScripts.dll",
+        "Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll",
+        "Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
@@ -174,13 +178,25 @@
       "File": "Library/Bee/2000b0aESkipCompile-inputdata.json"
     },
     {
+      "File": "Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.ptc.vuforia.engine@b724a8714d15/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
@@ -202,6 +218,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/VuforiaScripts.dll"
     }
   ],
   "GlobSignatures": [

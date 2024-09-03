@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "b724a8714d15",
+        "mtime": 1725327251291,
+        "size": 139148898,
+        "localPath": "/home/yamil-uchani/Documentos/GitHub/ArwebApp/ArwebApp/Packages/com.ptc.vuforia.engine-10.25.4.tgz"
+      }
+    }
+  }
+}
